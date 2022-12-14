@@ -1,0 +1,182 @@
+/* Start General Character */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    margin: auto;
+    width: 1024px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+}
+/* End General Character */
+/* Start Header */
+header {
+    height: 70px;
+    background-color: #303b4f;
+}
+header p {
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 180px;
+    cursor: pointer;
+    line-height: 70px;
+    float: left;
+}
+header ul {
+    float: right;
+}
+header li {
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 70px;
+}
+header li.one {
+    margin: 0;
+}
+header li:hover {
+    color: rgb(5, 255, 255);
+}
+/* End Header */
+/* Start section One */
+section.one {
+    background-color: white;
+}
+section.one .container {
+    text-align: center;
+}
+section.one .content:not(:last-child) {
+    width: 244.75px;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+section.one .container .last {
+    margin: 0;
+}
+section.one .content h3 {
+    padding-top: 15px;
+    font-size: 20px;
+}
+section.one .content p {
+    padding-top: 15px;
+}
+section.one a {
+    margin-top: 15px;
+    display: block;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(183, 183, 183);
+}
+section.one a:hover {
+    outline: 4px solid grey;
+}
+/* End section One */
+/* Start Section Two */
+section.two {
+    background-color: #2fb4e1;
+}
+section.two .container {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 1.8;
+    color: white;
+}
+section.two .container p {
+    font-size: 18px;
+}
+section.two .imag {
+    padding-top: 15px;
+    text-align: center;
+}
+section.two .ball {
+    padding-top: 5px;
+}
+section.two .ball div {
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+/* End Section Two */
+/* Start Section Three */
+section.three .container {
+    padding-bottom: 60px;
+}
+section.three .part {
+    padding-top: 60px;
+}
+section.three .text {
+    width: 490px;
+    float: left;
+    margin-right: 22px;
+}
+section.three .text2 {
+    width: 480px;
+    float: right;
+    margin-left: 32px;
+}
+section.three img.one {
+    width: 480px;
+    float: right;
+    margin-left: 32px;
+}
+section.three img {
+    width: 512px;
+    height: 200px;
+}
+section.three p {
+    line-height: 1.3;
+    padding-top: 15px;
+}
+section.three button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #2fb4e1;
+    border: none;
+    cursor: pointer;
+}
+section.three button:hover {
+    outline: 3px solid #2fb4e1;
+}
+section.three button a {
+    color: white;
+}
+/* End Section Three */
+/* start Footer */
+footer {
+    text-align: center;
+}
+footer .container {
+    border-top: 1px solid gray;
+}
+footer p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+/* End Footer */
