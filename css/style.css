@@ -143,10 +143,11 @@ section.three img.one {
     width: 480px;
     float: right;
     margin-left: 32px;
+    height: 280px;
 }
 section.three img {
     width: 512px;
-    height: 200px;
+    height: 280px;
 }
 section.three p {
     line-height: 1.3;
